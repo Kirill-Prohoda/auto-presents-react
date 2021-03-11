@@ -1,4 +1,4 @@
-$customYellow: #BEA67C;
+$customYellow: #bea67c;
 $customGray: #818180;
 $customWhite: rgb(255, 255, 255);
 $customBlack: rgb(0, 0, 0);
@@ -10,44 +10,19 @@ $customBlack: rgb(0, 0, 0);
   align-content: center;
 }
 
-
-
 //====================================>
 .header {
   position: fixed;
   z-index: 999;
   width: 100%;
   height: 80px;
-  
-  background: rgba(0,0,0,0.8);
+
+  background: rgba(0, 0, 0, 0.8);
   display: flex;
   justify-content: space-between;
 
   .header_button {
     flex: 0 0 200px;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    position: relative;
-    color:$customGray;
-
-    cursor: pointer;
-    & > .img{
-      width: 50px;
-      height: 50px;
-      margin-right: 10px ;
-      position: relative;
-      
-      & > .img_menu , .img_close {
-        position: absolute;
-        transition: 1s;
-        fill: $customYellow;
-        width: 100%;
-        height: 100%;
-        
-      }
-    }
   }
 
   .header_navbar {
@@ -57,6 +32,7 @@ $customBlack: rgb(0, 0, 0);
   .header_lang {
     flex: 0 0 80px;
     height: 100%;
+    @include Center();
   }
 }
 
@@ -70,25 +46,6 @@ $customBlack: rgb(0, 0, 0);
   .navbar_logo {
     flex: 1 1 250px;
     @include Center();
-    text-transform: uppercase;
-
-    font-size: 2em;
-    font-weight: 900;
-    letter-spacing: 18px;
-    position: relative;
-    &>a{
-      color:$customWhite;
-      text-decoration: none;
-    }
-    ::before{
-      content: '';
-      position: absolute;
-      top: 50%;
-      left: 23%;
-      width: 20%;
-      border: 0.5px solid $customYellow;
-      
-    }
   }
   .navbar_menu {
     flex: 1 1 650px;
@@ -101,42 +58,21 @@ $customBlack: rgb(0, 0, 0);
   justify-content: space-around;
 }
 
-
 .navbar_menu {
   display: flex;
   flex-direction: row;
   list-style: none;
 
   & > .menu_el {
-    
     @include Center();
 
-    
-    &>a{
-      color:$customGray;
+    & > a {
+      color: $customGray;
       text-decoration: none;
     }
   }
 }
 
-.header_lang {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  
-  &>p{
-    margin-right: 5px ;
-  }
-  &>.exclamation{
-    margin-right: 5px ;
-    fill: $customYellow;
-  }
-}
-.header_select{
-  background: rgba(0,0,0,0);
-  color: $customGray;
-  border: 1px solid rgba(0,0,0,0);
-}
 
 //===========================================>
 // @media (max-width: 1000px) {
@@ -157,13 +93,4 @@ $customBlack: rgb(0, 0, 0);
 .disable {
   display: none;
 }
-.sidenav {
-  top: 80px;
-  left: 0;
-  width: 20%;
-  list-style: none;
-  animation-delay: 0.2ms;
-  position: absolute;
-  height: 100vh;
-  background: $customGray;
-}
+

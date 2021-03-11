@@ -12,17 +12,18 @@ const RouterPage = () => {
     const transitions = useTransition(location, location => location.pathname, {
         from: {
             opacity: 0,
-            position: 'absolute',
             width: '100%',
+            position: 'absolute',
             transform: `translate3d(100%, 0, 0)`,
-            height: '100hv'
         },
         enter: {
             opacity: 1,
+            position: 'relative',
             transform: 'translate3d(0, 0, 0)'
         },
         leave: {
             opacity: 0,
+            position: 'absolute',
             transform: `translate3d(-50%, 0, 0)`
         }
     })

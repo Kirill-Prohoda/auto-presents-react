@@ -3,7 +3,7 @@ import Header from '../component/header'
 
 
 
-import './default.css'
+import './default.scss'
 
 const DefaultLayout = ({ children }) => {
 

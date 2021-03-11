@@ -1,0 +1,33 @@
+$customYellow: #bea67c;
+$customGray: #818180;
+$customWhite: rgb(255, 255, 255);
+$customBlack: rgb(0, 0, 0);
+
+
+.footer{
+    background: rgba(0,0,0,0.8);
+    display:flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    height: 80px;
+    width: inherit;
+
+    &>div{
+        color: $customGray;
+    }
+    &>.year{
+        
+    }
+    &>.logo{
+
+    }
+    &>.author{
+
+    }
+
+
+
+
+
+}

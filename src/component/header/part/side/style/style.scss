@@ -1,0 +1,15 @@
+$customYellow: #bea67c;
+$customGray: #818180;
+$customWhite: rgb(255, 255, 255);
+$customBlack: rgb(0, 0, 0);
+
+.sidenav {
+    top: 80px;
+    left: 0;
+    width: 20%;
+    list-style: none;
+    animation-delay: 0.2ms;
+    position: absolute;
+    height: 100vh;
+    background: $customGray;
+}

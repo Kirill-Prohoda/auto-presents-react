@@ -1,0 +1,23 @@
+$customYellow: #bea67c;
+$customGray: #818180;
+$customWhite: rgb(255, 255, 255);
+$customBlack: rgb(0, 0, 0);
+
+.lang {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  
+    & > p {
+      margin-right: 5px;
+    }
+    & > .exclamation {
+      margin-right: 5px;
+      fill: $customYellow;
+    }
+  }
+  .header_select {
+    background: rgba(0, 0, 0, 0);
+    color: $customGray;
+    border: 1px solid rgba(0, 0, 0, 0);
+  }
