@@ -75,22 +75,21 @@ $customBlack: rgb(0, 0, 0);
 
 
 //===========================================>
-// @media (max-width: 1000px) {
-//   .header_button {
-//     display: block;
-//   }
-//   .menu, .header_lang {
-//     display: none;
-//   }
-// }
-// @media (min-width: 1000px) {
-//   .header_button {
-//     display: none;
-//   }
-
-// }
-//========================================>
-.disable {
-  display: none;
+@media (max-width: 1000px) {
+  .header_button {
+    display: block;
+  }
+  .menu{
+    display: none;
+  }
+  .header_lang {
+    display: none;
+  }
 }
+@media (min-width: 1000px) {
+  .header_button{
+    display: none;
+  }
 
+}
+//========================================>

@@ -1,6 +1,6 @@
 
 import { useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import Logo from '../base/logo/logo.js'
 import HeaderButt from './part/butt/butt.js'
 import HeaderLang from './part/lang/lang.js'
@@ -24,9 +24,9 @@ const Header = () => {
                         <Logo />
                     </div>
                     <ul className="navbar_menu menu">
-                        <li className="menu_el"><Link to='/about'> home </Link></li>
-                        <li className="menu_el"><Link to='/about'> products </Link></li>
-                        <li className="menu_el"><Link to='/about'> about </Link></li>
+                        <li className="menu_el"><NavLink exact to='/' activeStyle={{color: "#bea67c" }}> home </NavLink></li>
+                        <li className="menu_el"><NavLink to='/about' activeStyle={{color: "#bea67c" }}> products </NavLink></li>
+                        <li className="menu_el"><NavLink to='/about' activeStyle={{color: "#bea67c" }}> about </NavLink></li>
                     </ul>
                 </nav>
             </div>

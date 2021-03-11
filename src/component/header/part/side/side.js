@@ -1,14 +1,16 @@
-import { Link } from 'react-router-dom'
+import {  NavLink } from 'react-router-dom'
 import './style/style.scss'
 
 
-const HeaderSide = ({bool}) => {
+const HeaderSide = ({ bool }) => {
     return (
-        <ul className={`animated sidenav ${bool ? 'slideInLeft' : 'slideOutLeft'}`} id="mobile-demo">
-            <li className="sidenav_el"><Link to='/'> home </Link></li>
-            <li className="sidenav_el"><Link to='/about'> products </Link></li>
-            <li className="sidenav_el"><Link to='/about'> about </Link></li>
-        </ul>
+        <div className={`animated sidenav ${bool ? 'slideInLeft' : 'slideOutLeft'}`}>
+            <ul className="sidenav_menu" >
+                <li className="sidenav_menu_el"><NavLink exact activeStyle={{color: "#bea67c" }} to='/'> home </NavLink></li>
+                <li className="sidenav_menu_el"><NavLink activeStyle={{color: "#bea67c" }} to='/about'> products </NavLink></li>
+                <li className="sidenav_menu_el"><NavLink activeStyle={{color: "#bea67c" }} to='/about'> about </NavLink></li>
+            </ul>
+        </div>
     )
 
 }
