@@ -1,0 +1,130 @@
+$customYellow: #bea67c;
+$customGray: #818180;
+$customWhite: rgb(255, 255, 255);
+$customBlack: rgb(0, 0, 0);
+
+.home_parts {
+  min-height: auto;
+  max-width: 1000px;
+  margin: auto;
+
+  .parts,
+  .tires {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 120px 0;
+
+    & > .parts_desc,
+    .tires_desc {
+      display: flex;
+      // align-items: center;
+      flex-direction: column;
+      justify-content: center;
+
+      width: 300px;
+      height: 200px;
+
+      & > h2 {
+        text-transform: uppercase;
+        margin: 0 0 10px 0;
+      }
+    }
+    & > .parts_photo,
+    .tires_photo {
+      width: 300px;
+      height: 200px;
+      margin: 0 20px;
+
+      box-shadow: 2px 5px 18px 0px rgba(0, 0, 0, 0.25);
+      -webkit-box-shadow: 2px 5px 18px 0px rgba(0, 0, 0, 0.25);
+      -moz-box-shadow: 2px 5px 18px 0px rgba(0, 0, 0, 0.25);
+      border-radius: 10px;
+
+      & > img {
+        border-radius: 10px;
+      }
+    }
+  }
+}
+
+.equipment {
+  display: flex;
+  flex-direction: column;
+
+  margin: 0 0 80px 0;
+  .equipment_desc {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 0 20px 0;
+
+    & > h2 {
+      margin: 0 0 20px 0;
+      position: relative;
+      text-transform: uppercase;
+    }
+    & > h2::before {
+      content: "";
+      position: absolute;
+      border: 1px solid $customYellow;
+      bottom: -20%;
+      left: 45%;
+      right: 45%;
+
+      width: inherit;
+    }
+  }
+  .equipment_video {
+    display: flex;
+    justify-content: space-around;
+
+    .equipment_video_el {
+      height: 200px;
+      width: 200px;
+      border: 10px solid rgba(248, 248, 248, 1);
+      border-radius: 50%;
+      & > p {
+        text-align: center;
+        margin: 10px 0 0 0;
+      }
+
+      & > img {
+        border-radius: 50%;
+
+        transition: 0.2s ease-in-out;
+
+        &:hover {
+          background: rgba(248, 248, 248, 1);
+          filter: brightness(40%);
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .parts,
+  .tires {
+    flex-direction: column;
+
+    & > .parts_desc,
+    .tires_desc {
+      & > h2 {
+        margin: 0 0 10px 0;
+      }
+      & > p {
+        margin: 0 0 50px 0;
+      }
+    }
+  }
+
+  .equipment {
+    .equipment_video {
+      .equipment_video_el {
+        height: 150px;
+        width: 150px;
+      }
+    }
+  }
+}

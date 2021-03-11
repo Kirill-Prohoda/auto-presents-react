@@ -1,0 +1,14 @@
+.home_about{
+    height: 500px;
+    max-width: 1000px;
+    margin: auto;
+
+    .about{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        height: 100%;
+        border: 1px solid #000;
+    }
+}

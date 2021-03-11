@@ -1,6 +1,6 @@
 
 import { useState } from 'react'
-import { Link, NavLink } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import Logo from '../base/logo/logo.js'
 import HeaderButt from './part/butt/butt.js'
 import HeaderLang from './part/lang/lang.js'

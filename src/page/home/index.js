@@ -1,9 +1,7 @@
-import HomeParts from '../../component/home/furni/parts.js'
+import HomeParts from '../../component/home/parts/parts.js'
 import HomeHead from '../../component/home/head/head.js'
-import SectionDecor from '../../component/home/sectionDecor'
-import SectionFurniture from '../../component/home/sectionFurniture'
-import SectionPreview from '../../component/home/sectionPreview'
-import SectionVideos from '../../component/home/sectionVideos'
+import HomePreview from '../../component/home/preview/preview.js'
+import HomeAbout from '../../component/home/about/adout.js'
 
 const HomeContainer = () => {
     return (
@@ -11,10 +9,9 @@ const HomeContainer = () => {
             
             <HomeHead />
             <HomeParts />
-            {/* <SectionDecor />
-            <SectionFurniture />
-            <SectionPreview />
-            <SectionVideos /> */}
+            <HomePreview />
+            <HomeAbout />
+           
         </>
     )
 }
