@@ -1,10 +1,13 @@
-import logo from './logo.svg';
+import RouterPage from './page/index'
+import DefaultLayout from './layout/default'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      ну привет
+      <DefaultLayout>
+        <RouterPage />
+      </DefaultLayout>
     </div>
   );
 }
