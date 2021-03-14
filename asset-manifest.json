@@ -1,23 +1,29 @@
 {
   "files": {
-    "main.css": "/auto-presents-react/static/css/main.9d5b29c0.chunk.css",
-    "main.js": "/auto-presents-react/static/js/main.4135a29e.chunk.js",
-    "main.js.map": "/auto-presents-react/static/js/main.4135a29e.chunk.js.map",
-    "runtime-main.js": "/auto-presents-react/static/js/runtime-main.d8be3745.js",
-    "runtime-main.js.map": "/auto-presents-react/static/js/runtime-main.d8be3745.js.map",
-    "static/js/2.32f0fbd8.chunk.js": "/auto-presents-react/static/js/2.32f0fbd8.chunk.js",
-    "static/js/2.32f0fbd8.chunk.js.map": "/auto-presents-react/static/js/2.32f0fbd8.chunk.js.map",
-    "static/js/3.99f3c520.chunk.js": "/auto-presents-react/static/js/3.99f3c520.chunk.js",
-    "static/js/3.99f3c520.chunk.js.map": "/auto-presents-react/static/js/3.99f3c520.chunk.js.map",
+    "main.css": "/auto-presents-react/static/css/main.230add68.chunk.css",
+    "main.js": "/auto-presents-react/static/js/main.7b415c60.chunk.js",
+    "main.js.map": "/auto-presents-react/static/js/main.7b415c60.chunk.js.map",
+    "runtime-main.js": "/auto-presents-react/static/js/runtime-main.792454a9.js",
+    "runtime-main.js.map": "/auto-presents-react/static/js/runtime-main.792454a9.js.map",
+    "static/js/2.eb0a99e9.chunk.js": "/auto-presents-react/static/js/2.eb0a99e9.chunk.js",
+    "static/js/2.eb0a99e9.chunk.js.map": "/auto-presents-react/static/js/2.eb0a99e9.chunk.js.map",
+    "static/js/3.7b9d007b.chunk.js": "/auto-presents-react/static/js/3.7b9d007b.chunk.js",
+    "static/js/3.7b9d007b.chunk.js.map": "/auto-presents-react/static/js/3.7b9d007b.chunk.js.map",
     "index.html": "/auto-presents-react/index.html",
-    "static/css/main.9d5b29c0.chunk.css.map": "/auto-presents-react/static/css/main.9d5b29c0.chunk.css.map",
-    "static/js/2.32f0fbd8.chunk.js.LICENSE.txt": "/auto-presents-react/static/js/2.32f0fbd8.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/auto-presents-react/static/media/logo.6ce24c58.svg"
+    "static/css/main.230add68.chunk.css.map": "/auto-presents-react/static/css/main.230add68.chunk.css.map",
+    "static/js/2.eb0a99e9.chunk.js.LICENSE.txt": "/auto-presents-react/static/js/2.eb0a99e9.chunk.js.LICENSE.txt",
+    "static/media/fonts.scss": "/auto-presents-react/static/media/ProximaNova.ed662f40.ttf",
+    "static/media/eqypir.3947f8b2.jpg": "/auto-presents-react/static/media/eqypir.3947f8b2.jpg",
+    "static/media/friend.fe3a1243.jpg": "/auto-presents-react/static/media/friend.fe3a1243.jpg",
+    "static/media/moto-pic.da4c186c.jpg": "/auto-presents-react/static/media/moto-pic.da4c186c.jpg",
+    "static/media/parts.a85d30f3.jpg": "/auto-presents-react/static/media/parts.a85d30f3.jpg",
+    "static/media/play.6fd9f684.svg": "/auto-presents-react/static/media/play.6fd9f684.svg",
+    "static/media/tires.953ac848.jpg": "/auto-presents-react/static/media/tires.953ac848.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.d8be3745.js",
-    "static/js/2.32f0fbd8.chunk.js",
-    "static/css/main.9d5b29c0.chunk.css",
-    "static/js/main.4135a29e.chunk.js"
+    "static/js/runtime-main.792454a9.js",
+    "static/js/2.eb0a99e9.chunk.js",
+    "static/css/main.230add68.chunk.css",
+    "static/js/main.7b415c60.chunk.js"
   ]
 }
