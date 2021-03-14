@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
+import DefaultLayout from './layout/default'
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
 
@@ -10,11 +11,13 @@ import './styles/font/fonts.scss';
 //import 'materialize-css/dist/css/materialize.min.css';
 
 ReactDOM.render(
-  <BrowserRouter basename={process.env.PUBLIC_URL}>
-    <React.StrictMode>
-      <App />
-    </React.StrictMode>
-  </BrowserRouter>,
+  <React.StrictMode>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <DefaultLayout>
+        <App />
+      </DefaultLayout>
+    </BrowserRouter>
+  </React.StrictMode>,
   document.getElementById('root')
 );
 

@@ -1,0 +1,54 @@
+$customYellow: #cca767;
+$customGray: #818180;
+$customWhite: rgb(255, 255, 255);
+$customBlack: rgb(0, 0, 0);
+
+.home_head {
+  width: 100%;
+  min-height: 900px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  & > .home_title {
+    height: 50%;
+    color: $customYellow;
+
+    & > h1 {
+      font-size: 2.5em;
+      text-transform: uppercase;
+      letter-spacing: 10px;
+    }
+    & > p {
+      margin: 10px 0;
+      width: fit-content;
+      & > a {
+        color: $customYellow;
+        text-decoration: none;
+        border: 1px solid $customYellow;
+        padding: 5px;
+      }
+      &:hover {
+        transform: scale(1.05);
+        transition: 0.5s;
+      }
+    }
+    .home_anim {
+      display: flex;
+      flex-direction: column;
+      width: fit-content;
+      margin: 20px 0 0 0;
+
+      & > svg {
+        fill: $customYellow;
+      }
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .home_head {
+    min-height: 500px;
+  }
+}

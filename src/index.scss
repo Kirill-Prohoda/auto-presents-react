@@ -5,6 +5,12 @@ $customYellow: #bea67c;
   margin: 0;
   padding: 0;
 }
+.body_noscroll{
+  overflow:hidden;
+}
+.disable{
+  display: none;
+}
 body {
   margin: 0;
   

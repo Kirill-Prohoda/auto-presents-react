@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import './style/style.scss'
 
 const HeaderLang = () => {
-    let [value, setValue] = useState()
+    let [value, setValue] = useState('')
 
     useEffect(() => {
         console.log(value)

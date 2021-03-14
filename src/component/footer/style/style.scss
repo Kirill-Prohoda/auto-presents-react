@@ -3,31 +3,35 @@ $customGray: #818180;
 $customWhite: rgb(255, 255, 255);
 $customBlack: rgb(0, 0, 0);
 
+.footer {
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  height: 80px;
+  width: inherit;
 
-.footer{
-    background: rgba(0,0,0,0.8);
-    display:flex;
-    justify-content: space-around;
-    flex-direction: row;
-    align-items: center;
-    height: 80px;
-    width: inherit;
+  & > div {
+    color: $customGray;
+  }
+  & > .year {
+  }
+  & > .logo {
+    font-size: 1em;
+  }
+  & > .author {
+  }
+}
 
+@media (max-width: 1000px) {
+  .footer {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    height: 150px;
     &>div{
-        color: $customGray;
+      margin:10px 0;
     }
-    &>.year{
-        
-    }
-    &>.logo{
-
-    }
-    &>.author{
-
-    }
-
-
-
-
-
+  }
 }

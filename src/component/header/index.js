@@ -8,8 +8,8 @@ import HeaderSide from './part/side/side.js'
 
 import './style/style.scss'
 
-const Header = () => {
-    let [bool, setBool] = useState(false)
+const Header = ({bool, setBool}) => {
+    
 
 
     return (

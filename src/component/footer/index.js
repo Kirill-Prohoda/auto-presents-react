@@ -5,12 +5,12 @@ const Footer = () => {
     return (
         <div className="footer">
             <div className="year">
-                &#169; 2021 wooder
+                &#169; 2021
             </div>
             <div className="logo">
                 <Logo />
             </div>
-            <div className="">
+            <div className="author">
                 author
             </div>
         </div>
